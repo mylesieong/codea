@@ -8,6 +8,10 @@ public class PgmVar{
         this.mName = name;
     }
 
+    public String getName(){
+        return this.toString();
+    }
+
     public String toString(){
         return this.mName;
     }
